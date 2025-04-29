@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @HD_Movies_Earth
+# Subscribe YouTube Channel For Amazing Bot @UHD_NETWORK
+# Ask Doubt on telegram @UHD_NETWORK_HelpBot
 
 
 class script(object):
