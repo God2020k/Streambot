@@ -4,10 +4,10 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '20005523'))
-API_HASH = environ.get('API_HASH', '32fb9c8da4c39a4aa8bbc9f72c70e544')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+SESSION = environ.get('SESSION', 'filetolinkbot')
+API_ID = int(environ.get('API_ID', '26872474'))
+API_HASH = environ.get('API_HASH', 'f8d3a289bf28a13a7159ad0b2ed114e7')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5420856904:AAFHQtA3f7A9mn_c034bAPPb7I_af5JD8Eo")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -23,14 +23,14 @@ else:
 URL = environ.get("URL", "")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002645203047'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002035856177'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1900118264').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://HDMoviesEarth:unqOY8gUrmDLNXHd@cluster0.0xjypxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Karnan2k:karnan2k@cluster0.guq8k77.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 
 # Shortlink Info
-SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
+SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd3df65a69b586d03f8e861ea6967e9fa608b8444')
